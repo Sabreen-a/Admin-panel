@@ -1,0 +1,150 @@
+<div>
+   <h1 mat-dialog-title style="text-align:center;">Add new product</h1>
+  <div mat-dialog-content>
+    <div mat-dialog-actions>
+    <form [formGroup]="createdform" (ngSubmit)="onSubmit(createdform.value)">
+     <!--picture-->
+      <div class="mb-3 col-6" style="margin:20px auto;"> 
+        <label for="picture" class="form-label">product image</label>
+        <img class="img-thumbnail" [src]="productImg" style="width:250px;height:200px;margin:30px auto;">
+        <input type="file" name="img" formControlName="PictureUrl" class="form-control"  (change)="handleFileInput2($event)">
+       
+      </div>
+      <div class="mb-3 col-12">
+        <label for="picture" class="form-label d-block">product gallery</label>
+        <ng-container >
+          <img   class="img-thumbnail" *ngFor="let url of urls index as i"  [src]="url" style="width:250px;height:200px;margin-left:10px;">
+        </ng-container>
+          <input type="file" name="imgs" class="form-control" formControlName="picturGallaryFils"  (change)="onselect2($event)" multiple="multiple">
+         </div> <!--products gallery-->
+
+     <!-- <div style="display:flex;justify-content:center;">
+      -name-->
+      <div class="mb-3 mx-4">
+        <label for="name" class="form-label">name</label>
+        <input type="text" formControlName="Name" class="form-control" id="name">
+      </div> 
+
+       <!--count -->
+       <!-- <div class="mb-3 mx-4">
+        <label for="count" class="form-label">count</label>
+        <input type="text" #count="ngModel" [(ngModel)]="product.count" class="form-control" id="count" [ngModelOptions]="{standalone: true}">
+      </div> -->
+
+      <!--category-->
+      <div class="mb-3 mx-4" >
+        <label for="category" class="form-label">category ID </label>
+        <input type="text" [value]="modifiedText" formControlName="ProductBrandId"   class="form-control" id="category">
+      </div>
+      <div class="mb-3 mx-4">
+      <label for="category" class="form-label">category Name </label>
+      <select class="form-select "   (change)="onCategorySelected($event)" >
+        <option selected  value="1" disabled>selected</option>
+        <ng-container *ngFor="let item of categoryList.data;">
+          <option   [value]="item.id">
+         {{item.name}}
+       </option>
+         
+        </ng-container>
+        </select>
+        </div>
+        
+        
+       <!--sub category-->
+       <div class="mb-3 mx-4" style="display:none;">
+        <label for="category" class="form-label">subcategory ID </label>
+        <input type="text" [value]="submodifiedText" formControlName="ProductTypeId"   class="form-control" id="subcategory">
+      </div>
+     
+       <div class="mb-3 mx-4">
+        <label for="category" class="form-label">sub category</label>
+        <select class="form-select"   (change)="onsubcategorySelected($event)" >
+          <option selected  value="1" disabled>selected</option>
+          <ng-container *ngFor="let item of subcategoryList;">
+            <option   [value]="item.id">
+           {{item.name}}
+         </option>
+           
+          </ng-container>
+          </select>
+          </div>
+       
+      
+        
+
+    <!-- </div> -->
+
+   
+    <!--second row-->
+    <!-- <div style="display:flex;justify-content:center;"></div> -->
+
+      <div class="mb-3 mx-4">
+        <label for="price" class="form-label">Price</label>
+        <input type="number" formControlName="Price" class="form-control" id="price" >
+      </div>
+      <div class="mb-3 mx-4">
+        <label for="price" class="form-label">Count</label>
+        <input type="number" formControlName="Qount" class="form-control" id="price" >
+      </div>
+
+       <!--Price by One-->
+       <!-- <div class="mb-3 mx-4">
+        <label for="priceone" class="form-label">Price for one</label>
+        <input type="text" #originalprice="ngModel" [(ngModel)]="product.originalprice"  class="form-control" id="priceone" [ngModelOptions]="{standalone: true}">
+      </div> -->
+
+     <!--Price by Original all-->
+      <!-- <div class="mb-3 mx-4">
+        <label for="priceoriginal" class="form-label">Price by original all</label>
+        <input type="text" class="form-control" id="priceoriginal">
+      </div> -->
+
+      <!--Price by sall all-->
+       <!-- <div class="mb-3 mx-4">
+        <label for="priceall" class="form-label">Price by sall all</label>
+        <input type="text" #saleallone="ngModel" [(ngModel)]="product.sellallprice" class="form-control" id="priceall" [ngModelOptions]="{standalone: true}">
+      </div>
+      </div><end second row-->
+       
+      <!-- <div style="display:flex;justify-content:center;" class="col-12">
+        Date attach-->
+        <!-- <div class="mb-3 mx-4 col-5">
+          <label for="dateaatach" class="form-label">Date attach</label>
+          <input type="date"  formControls="Date_attach" class="form-control" id="dateaatach" >
+        </div>  -->
+
+        <!--Date expired-->
+        <!-- <div class="mb-3 mx-4 col-5">
+          <label for="dateexpired" class="form-label">Date Expired</label>
+          <input type="datetime-local"   #dateexpired="ngModel" [(ngModel)]="product.Date_Experied" class="form-control" id="dateexpired" [ngModelOptions]="{standalone: true}">
+        </div> -->
+      <!-- </div> -->
+
+     <!--last row-->
+      <!--Description-->
+     <div class="col-12">
+       <div class="mb-3 mx-4">
+        <label for="decription" class="form-label">Description</label>
+        <textarea type="text" formControlName="Description"  class="form-control" id="decription">
+        </textarea>
+      </div> 
+    </div>
+     
+      
+    <div class="mb-3 col-12" style="visibility:hidden;">
+      <label for="id" class="form-label">id</label>
+      <input type="number" #id class="form-control" id="id" aria-describedby="emailHelp">
+     
+    </div>
+    
+    <!--button-->
+    <div mat-dialog-actions style="display:flex;justify-content:space-evenly;">
+      <button type="submit"  class="btn" [mat-dialog-close]="check" style="background-color:#155a3c;color:white;width:100px;display:inline-block;margin-right:10px;">Add</button>
+      <button mat-button mat-dialog-close class="btn d-block ml-4" style="background-color:#155a3c;color:white;width:100px;">cancel</button>
+    </div>
+   
+    </form><!--form-->
+    
+  </div>
+</div>
+</div>

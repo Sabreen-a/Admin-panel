@@ -1,0 +1,118 @@
+<div>
+    <h1 mat-dialog-title style="text-align:center;">Edit Product</h1>
+   <div mat-dialog-content>
+     <div mat-dialog-actions>
+     <form>
+      <!--picture-->
+       <!-- <div class="mb-3 col-12">
+         <label for="picture" class="form-label">picture</label>
+         <img [src]="Product.myimg" style="width:250px;height:200px">
+         <input type="file" #img class="form-control" accept="image/*">
+        
+       </div> -->
+       <!-- <div class="mb-3 col-12">
+         <label for="picture" class="form-label">picture2</label>
+         <img [src]="productImg" style="width:250px;height:200px">
+         <input type="file"  class="form-control" accept="image/*" (change)="onselect($event)">
+        <button (click)="upload()">upload</button>
+       </div> -->
+ 
+      <!-- <div style="display:flex;justify-content:center;"> -->
+       <!--name-->
+       <div class="mb-3 mx-4">
+         <label for="name" class="form-label">Name</label>
+         <input type="text"  class="form-control" id="name" #Name>
+       </div>
+ 
+        <!-- count -->
+        <div class="mb-3 mx-4">
+         <label for="count" class="form-label">count</label>
+         <input type="number"  class="form-control" id="count" #Qount>
+       </div>
+ 
+       <!--category-->
+       <div class="mb-3 mx-4">
+         <label for="category" class="form-label">ProductBrandId</label>
+         <input type="number"   class="form-control" id="category" #ProductBrandId>
+       </div>
+    
+ 
+        <!--sub category-->
+        <div class="mb-3 mx-4">
+         <label for="subcategory" class="form-label">ProductTypeId</label>
+         <input type="text"    class="form-control" id="subcategory" #ProductTypeId>
+       </div>
+ 
+     <!-- </div>first row -->
+ 
+    
+     <!--second row-->
+     <!-- <div style="display:flex;justify-content:center;"> -->
+ 
+       <div class="mb-3 mx-4">
+         <label for="price" class="form-label">Price</label>
+         <input type="number" #price class="form-control" id="price">
+       </div>
+ 
+        <!--Price by One-->
+        <!-- <div class="mb-3 mx-4">
+         <label for="priceone" class="form-label">Price for one</label>
+         <input type="text" #originalprice  class="form-control" id="priceone">
+       </div> -->
+ 
+      <!--Price by Original all-->
+       <!-- <div class="mb-3 mx-4">
+         <label for="priceoriginal" class="form-label">Price by original all</label>
+         <input type="text" class="form-control" id="priceoriginal">
+       </div> -->
+ 
+       <!--Price by sall all-->
+        <!-- <div class="mb-3 mx-4">
+         <label for="priceall" class="form-label">Price by sall all</label>
+         <input type="text" #saleallone  class="form-control" id="priceall">
+       </div> -->
+       <!-- </div> -->
+       <!--end second row-->
+       
+       <!-- <div style="display:flex;justify-content:center;" class="col-12"> -->
+         <!--Date attach-->
+         <!-- <div class="mb-3 mx-4 col-5">
+           <label for="dateaatach" class="form-label">Date attach</label>
+           <input type="datetime-local"  #attachdate class="form-control" id="dateaatach">
+         </div> -->
+ 
+         <!--Date expired-->
+         <!-- <div class="mb-3 mx-4 col-5">
+           <label for="dateexpired" class="form-label">Date Expired</label>
+           <input type="datetime-local"   #dateexpired class="form-control" id="dateexpired">
+         </div>
+       </div> -->
+ 
+      <!--last row-->
+       <!--Description-->
+      <!-- <div class="col-12">
+        <div class="mb-1 mx-4">
+         <label for="decription" class="form-label">Description</label>
+         <textarea type="text" #description class="form-control" id="decription">
+         </textarea>
+       </div>
+     </div> -->
+      
+       
+      <div class="mb-3 col-12">
+       <label for="id" class="form-label">id</label>
+       <input type="number" #id class="form-control" id="id" aria-describedby="emailHelp">
+      
+     </div>
+      
+     <!--button-->
+      <div mat-dialog-actions style="display:flex;justify-content:space-evenly;">
+       <button  mat-button (click)="Edit(Name.value,Qount.value,price.value,ProductTypeId.value,ProductBrandId.value,id.value)" type="submit"  class="btn" [mat-dialog-close]="check" style="background-color:#155a3c;color:white;width:100px;display:inline-block;margin-right:10px;">Edit</button>
+       <button style="width:80px;text-align:center;background-color:#155a3c;color:white;"  mat-button mat-dialog-close class="btn  d-block ml-4">cancel</button>
+     </div>
+    
+     </form><!--form-->
+     
+   </div>
+ </div>
+ </div>

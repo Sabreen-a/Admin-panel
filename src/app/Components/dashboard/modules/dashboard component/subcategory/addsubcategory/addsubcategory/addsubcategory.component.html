@@ -1,0 +1,22 @@
+
+   <h1 mat-dialog-title>Add new sub category</h1>
+   <div mat-dialog-content>
+     <form #frm="ngForm" (ngSubmit)="Add()">
+       <div class="mb-3" style="display:none;">
+         <label for="exampleInputEmail1" class="form-label">id</label>
+         <input type="text" #id="ngModel" [(ngModel)]="subCategory.id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [ngModelOptions]="{standalone: true}" disabled>
+         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+       </div> 
+       <div class="mb-3">
+         <label for="catName" class="form-label">Category Name</label>
+         <input type="text" class="form-control" id="catName" #name="ngModel" [(ngModel)]="subCategory.name" [ngModelOptions]="{standalone: true}">
+       </div>
+       <div class="form-check d-flex" style="justify-content:space-evenly;">
+        <button type="submit" [mat-dialog-close]="check" class="btn" style="background-color:#155a3c;color:white;width:100px;display:inline-block;margin-right:10px;">Save</button>
+        <button mat-button mat-dialog-close class="btn" style="background-color:#155a3c;color:white;width:100px;">cancel</button>
+       </div>
+      
+     </form>
+   </div>
+   
+ 

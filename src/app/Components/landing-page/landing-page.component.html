@@ -1,0 +1,52 @@
+<!--categories-->
+
+
+<section *ngFor="let  itemCat of categories">
+  <section class="mb-3">
+    <h3  class="container text-center mb-3" style="color: #333;">{{itemCat.name}} </h3>
+    <span class="line"></span>
+
+          <div class="owl-carousel owl-theme container">
+            <div  *ngFor="let item of products">
+              <!--*ngIf="item.productBrand == itemCat.name"-->
+              <div class="item"  >
+                <div class="product" >
+                  <span ></span>
+                <div class="product-card" >
+                  <div class="image-parent" >
+                      <div class="image"  onload=" productPicture = item.pictureUrl; console.log(productPicture)" >
+                          <img src="{{getproductPicture}}" alt="{{item.name}}" class="rounded">
+                      </div><!-- ./image -->
+                      <div class=" overlay image-overlay">
+                          <div id="${snapshot.docs[i].id}">
+                              <h4 class="buy" (click)="AddToCart(item)" >Add To Cart</h4>
+                          </div>
+                      </div><!-- ./image-overlay -->
+                  </div><!-- ./image-parent -->
+
+                  <div class="product-info row " routerLink="product/{{item.id}}" [id]="item.id">
+                      <div class="name_rate col-8">
+                      <h4 class="product-name" title="{{item.name}}">{{item.name}}</h4>
+                      <div class="rating">
+                        <div class="star-outer">
+                        <div class="star-inner"></div>
+                        </div>
+                      </div><!-- ./rating -->
+                  </div><!-- ./name_rate -->
+                  <h6 class="price col-4">{{item.price}} EGP</h6>
+                  </div>  <!-- ./product-info -->
+
+              </div><!-- ./product-card -->
+            </div>
+
+              </div>
+
+            </div>
+        </div>
+  </section>
+</section>
+
+
+
+
+

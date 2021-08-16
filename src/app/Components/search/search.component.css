@@ -1,0 +1,122 @@
+/************************************************************************/
+/* card style*/
+.product{
+  height: 400px !important;
+}
+.product-card{
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 4px #ccc;
+  border-radius: 10px;
+  height: 100%;
+  transition: transform .5s;
+}
+.product-card:hover{
+  transform: translateY(-5px);
+
+}
+.image-parent{
+  width: 100%;
+  height:82%;
+  position: relative;
+}
+.image-parent .image{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+.image-parent .image img{
+  width: 100%;
+  height: 100%;
+}
+.image-overlay{
+  width: 100%;
+}
+.image-overlay div{
+  position:absolute;
+  /* border-radius: 10px; */
+  /* display: none; */
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 2;
+  cursor: pointer;
+  transition: all .6s;
+}
+.buy{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius:5px;
+  transition: background .5s;
+}
+.buy:hover{
+  background:#fff;
+  color: #333;
+  box-shadow: .5px .5px 4px #aaa;
+  border: 0;
+}
+.image-parent:hover .image-overlay div{
+  /* display: block; */
+  opacity: 1;
+}
+/* handle product info  */
+.product-info{
+  /* padding: 0 10px; */
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  height: 16%;
+  z-index: 5;
+}
+.product-name{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+
+}
+.star-outer{
+  position: relative;
+  display: inline-block;
+}
+.star-inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.star-outer::before{
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #ccc;
+}
+.star-inner::before{
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #f8ce0b;
+}
+.price{
+  font-size: 15px;
+  color:Darkred;
+}

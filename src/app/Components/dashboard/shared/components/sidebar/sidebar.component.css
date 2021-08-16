@@ -1,0 +1,27 @@
+
+    .mat-icon{
+        vertical-align:middle;
+        margin-left:10px;
+    }
+
+
+.profile-card{
+    text-align:center;
+    padding:20px;
+    /*height:900px;*/
+    overflow-y: visible;
+    
+}
+.profile-card img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius:50%;
+}
+i{
+    display:block;
+    margin-right:10px;
+}
+.mat-nav-list .mat-list-item {
+    color:#155a3c;
+}

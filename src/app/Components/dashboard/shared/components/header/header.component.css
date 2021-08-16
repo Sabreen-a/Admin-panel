@@ -1,0 +1,17 @@
+ul li{
+    list-style:none;
+}
+div{
+    display:flex;
+    
+}
+.primary{
+    background-color:#155a3c;
+    color:white;
+    
+    font-size:larger;
+    font-weight:bold;
+}
+mat-toolbar-row{
+    justify-content: space-between;
+}

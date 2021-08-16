@@ -1,0 +1,22 @@
+
+   <h1 mat-dialog-title>Edit sub category</h1>
+   <div mat-dialog-content>
+     <form>
+       <div class="mb-3" style="display:none;">
+         <label for="exampleInputEmail1" class="form-label">id</label>
+         <input type="text" #id class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
+         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+       </div> 
+       <div class="mb-3">
+         <label for="catName" class="form-label">Category Name</label>
+         <input type="text" class="form-control" id="catName" #name>
+       </div>
+       <div class="form-check d-flex" style="display:flex;justify-content:space-evenly;">
+        <button type="button"   class="btn btn-primary" (click)="Edit(name.value,id.value)" style="background-color:#155a3c;color:white;width:100px;display:inline-block;margin-right:10px;">Edit</button>
+        <button style="width:80px;text-align:center;background-color:#155a3c;color:white;" mat-button (click)="close()" class="btn btn-primary">cancel</button>
+       </div>
+      
+     </form>
+   </div>
+   
+ 

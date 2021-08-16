@@ -1,0 +1,35 @@
+<section class="mb-3 container"  >
+
+          <div  class="row">
+              <div class="col-lg-4 col-sm-6  col-12 mt-3 product" *ngFor="let item of getdata.data" >
+                <span ></span>
+              <div class="product-card" >
+                <div class="image-parent" >
+                    <div class="image"  >
+                        <img src="{{item.pictureUrl}}" alt="{{item.name}}" class="rounded">
+                    </div><!-- ./image -->
+                    <div class=" overlay image-overlay">
+                        <div id="${snapshot.docs[i].id}">
+                            <h4 class="buy" (click)="AddToCart(item)">Add To Cart</h4>
+                        </div>
+                    </div><!-- ./image-overlay -->
+                </div><!-- ./image-parent -->
+
+                <div class="product-info row " routerLink="product/{{item.id}}" [id]="item.id">
+                    <div class="name_rate col-8">
+                    <h4 class="product-name" title="{{item.name}}">{{item.name}}</h4>
+                    <div class="rating">
+                      <div class="star-outer">
+                      <div class="star-inner"></div>
+                      </div>
+                    </div><!-- ./rating -->
+                </div><!-- ./name_rate -->
+                <h6 class="price col-4">{{item.price}} EGP</h6>
+                </div>  <!-- ./product-info -->
+
+            </div><!-- ./product-card -->
+          </div>
+
+            </div>
+
+</section>

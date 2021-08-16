@@ -1,0 +1,54 @@
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.deps.json
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.dll
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\ref\Infrastructore.dll
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.pdb
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\core.dll
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\core.pdb
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.csprojAssemblyReference.cache
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.GeneratedMSBuildEditorConfig.editorconfig
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.AssemblyInfoInputs.cache
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.AssemblyInfo.cs
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.CoreCompileInputs.cache
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.CopyComplete
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.dll
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\ref\Infrastructore.dll
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.pdb
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.runtimeconfig.json
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.runtimeconfig.dev.json
+D:\video\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.genruntimeconfig.cache
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.deps.json
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.runtimeconfig.json
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.runtimeconfig.dev.json
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.dll
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\ref\Infrastructore.dll
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\Infrastructore.pdb
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\core.dll
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\bin\Debug\net5.0\core.pdb
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.csprojAssemblyReference.cache
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.GeneratedMSBuildEditorConfig.editorconfig
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.AssemblyInfoInputs.cache
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.AssemblyInfo.cs
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.CoreCompileInputs.cache
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.CopyComplete
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.dll
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\ref\Infrastructore.dll
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.pdb
+D:\udemy\[DesireCourse.Net] Udemy - Learn to build an e-commerce app with Net Core and Angular\tranning Api Angular For Course By Beshoy Ameen\project\Infrastructore\obj\Debug\net5.0\Infrastructore.genruntimeconfig.cache
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\Infrastructore.deps.json
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\Infrastructore.runtimeconfig.json
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\Infrastructore.runtimeconfig.dev.json
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\Infrastructore.dll
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\ref\Infrastructore.dll
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\Infrastructore.pdb
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\core.dll
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\bin\Debug\net5.0\core.pdb
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.AssemblyReference.cache
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.GeneratedMSBuildEditorConfig.editorconfig
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.AssemblyInfoInputs.cache
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.AssemblyInfo.cs
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.CoreCompileInputs.cache
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.csproj.CopyComplete
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.dll
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\ref\Infrastructore.dll
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.pdb
+F:\iti\iti team work project\website project\apiproject\new api\Infrastructore\obj\Debug\net5.0\Infrastructore.genruntimeconfig.cache

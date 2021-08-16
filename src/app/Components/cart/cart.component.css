@@ -1,0 +1,25 @@
+.customContainer{
+  width: 80%;
+  margin: auto;
+  border:  1px solid #ccc;
+  box-shadow: 0.5px 0.5px 5px #ccc;
+  padding :10px;
+  border-radius: 10px;
+}
+.Customcard{
+  height:60vh;
+  margin: 25px;
+  padding: 25px;
+  border: none;
+
+}
+.CustomCenter{
+  padding: 30px 0px;
+ text-align: center;
+}
+.CustomCenter img{
+  text-decoration: none;
+  height: 162px;
+  width: 250px;
+  margin:20px 0px;
+}

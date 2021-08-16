@@ -1,0 +1,16 @@
+namespace core.Model
+{
+    public class BasketItems
+    {
+         public int Id { get; set; }
+        
+        public string productName { get; set; }
+
+        public double  Price { get; set; }
+        public int  Quantity { get; set; }
+
+        public string PictureUrl { get; set; }
+        public string Brand { get; set; }
+        public string Type { get; set; }
+    }
+}
