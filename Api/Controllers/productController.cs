@@ -235,12 +235,13 @@ namespace Api.Controllers
         //[HttpPost]
         public async Task<ActionResult<product>> Postproduct([FromForm] productModel productModel)
         {
-          //  public async Task<ActionResult<product>> Postproduct(productModel productModel)
-         // {
-            if(productModel.PictureUrl != null)
+           
+            //  public async Task<ActionResult<product>> Postproduct(productModel productModel)
+            // {
+            if (productModel.PictureUrl != null)
             {
                 string folder= "pro_Add/";
-                 productModel.ConvertPictureUrl=  UploadImage(folder,productModel.PictureUrl);
+                productModel.ConvertPictureUrl=  UploadImage(folder,productModel.PictureUrl);
             } 
             if(productModel.picturGallaryFils != null)
             {
